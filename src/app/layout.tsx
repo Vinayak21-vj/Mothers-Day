@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/next";
 import { playfair, dmSans, pinyonScript } from "@/styles/fonts";
 import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
@@ -31,6 +32,7 @@ export default function RootLayout({
         </main>
         
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
