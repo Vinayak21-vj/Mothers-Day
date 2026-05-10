@@ -6,6 +6,7 @@ import Footer from "@/components/layout/Footer";
 import GlowCursor from "@/components/effects/GlowCursor";
 import FallingHearts from "@/components/effects/FallingHearts";
 import PageTransition from "@/components/layout/PageTransition";
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 export const metadata: Metadata = {
   title: "Happy Mother's Day",
@@ -31,6 +32,7 @@ export default function RootLayout({
         </main>
         
         <Footer />
+        <SpeedInsights />
       </body>
     </html>
   );
