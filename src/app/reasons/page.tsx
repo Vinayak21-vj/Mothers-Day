@@ -22,7 +22,7 @@ export default function ReasonsPage() {
           animate={{ opacity: 1, y: 0 }}
           className="font-playfair text-5xl md:text-7xl text-[var(--accent-pink)] mb-6 drop-shadow-[0_0_20px_rgba(255,107,157,0.4)]"
         >
-          100 Reasons Why
+          Reasons Why
         </motion.h1>
         <motion.p 
           initial={{ opacity: 0 }}

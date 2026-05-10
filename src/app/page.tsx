@@ -160,7 +160,7 @@ export default function Home() {
                 { title: "Memories", icon: "🖼️", path: "/memories", desc: "A gallery of our best times" },
                 { title: "Love Letter", icon: "💌", path: "/letter", desc: "Words from our hearts" },
                 { title: "Wishes", icon: "🌟", path: "/wishes", desc: "Our wishes for you" },
-                { title: "100 Reasons", icon: "💛", path: "/reasons", desc: "Why we love you so much" },
+                { title: "Reasons", icon: "💛", path: "/reasons", desc: "Why we love you so much" },
               ].map((item, i) => (
                 <Link key={i} href={item.path}>
                   <motion.div 
