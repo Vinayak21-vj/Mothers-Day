@@ -1,0 +1,75 @@
+:root {
+  --bg-primary:    #0d0008;   /* deep rose-black */
+  --bg-section:    #130010;   /* sections */
+  --bg-card:       rgba(255, 107, 157, 0.07);
+  --accent-pink:   #ff6b9d;   /* main CTA, headings */
+  --accent-light:  #ffb3d1;   /* body highlights */
+  --accent-rose:   #e91e8c;   /* glows, deep accents */
+  --accent-gold:   #ffd700;   /* stars, special moments */
+  --text-white:    #ffffff;
+  --text-soft:     #ffd6e8;   /* body copy */
+  --text-muted:    #cc8aaa;   /* muted labels */
+  --glow-pink:     0 0 40px rgba(255, 107, 157, 0.45);
+  --glow-rose:     0 0 60px rgba(233, 30, 140, 0.35);
+  --border-card:   rgba(255, 107, 157, 0.25);
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  cursor: none; /* Hide default cursor for GlowCursor */
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-white);
+  font-family: var(--font-dm-sans), sans-serif;
+  overflow-x: hidden;
+  position: relative;
+}
+
+a, button {
+  cursor: none; /* Hide default cursor for GlowCursor */
+  text-decoration: none;
+  color: inherit;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-playfair), serif;
+}
+
+.font-script {
+  font-family: var(--font-pinyon), cursive;
+}
+
+/* Utilities */
+.glass-panel {
+  background: var(--bg-card);
+  border: 1px solid var(--border-card);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* 3D Utilities */
+.preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
