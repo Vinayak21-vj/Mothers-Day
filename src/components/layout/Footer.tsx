@@ -36,7 +36,10 @@ export default function Footer() {
         </h2>
         
         <p className="text-[var(--text-soft)] italic text-lg tracking-wide">
-          — Vinayak & Aaadi
+          — Vinayak & Aadi
+        </p>
+        <p className="text-[var(--text-soft)] text-xs mt-4 opacity-70">
+          Made by Vinayak Jain
         </p>
       </div>
 

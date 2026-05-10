@@ -9,7 +9,7 @@ import PageTransition from "@/components/layout/PageTransition";
 
 export const metadata: Metadata = {
   title: "Happy Mother's Day",
-  description: "A special Mother's Day wish from Vinayak & Aaadi",
+  description: "A special Mother's Day wish from Vinayak & Aadi",
 };
 
 export default function RootLayout({

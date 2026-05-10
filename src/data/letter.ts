@@ -7,5 +7,5 @@ export const letterContent = {
     "Thank you for being our guide, our friend, and our home."
   ],
   signoff: "With all our love, forever,",
-  names: "Vinayak & Aaadi 🌸"
+  names: "Vinayak & Aadi 🌸"
 };

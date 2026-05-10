@@ -58,7 +58,7 @@ export default function Home() {
             transition={{ delay: 1.5, duration: 1 }}
             className="text-[var(--accent-light)] italic text-lg font-script text-3xl"
           >
-            Made with love by Vinayak & Aaadi ❤️
+            Made with love by Vinayak & Aadi ❤️
           </motion.p>
         </motion.div>
 
