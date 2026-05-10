@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   --bg-primary:    #0d0008;   /* deep rose-black */
   --bg-section:    #130010;   /* sections */
